@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Checkout</h1>
+        <div class="left">
+            <div class="upper">
+                <h2>Contact İnformation</h2>
+                <label for="mail">Email</label>
+                <div class="input__mail"><i class="fa-solid fa-envelope"></i><input type="email" name="mail" id="mail" placeholder="Enter your email..."></div>
+
+                <label for="num">Phone</label>
+                <div class="input__number"><i class="fa-solid fa-phone"></i> <input type="number" name="num" id="num" placeholder="Enter your phone..."></div>
+            </div>
+
+            <div class="lower">
+                <h2>Shipping address</h2>
+                <label for="name">Full name</label>
+                <div class="name"><i class="fa-solid fa-user"></i><input type="text" name="name" id="name" placeholder="Enter your name..."></div>
+
+                <label for="adres">Adress</label>
+                <div class="adres"><i class="fa-solid fa-house"></i><input type="text" name="adres" id="adres" placeholder="Enter your address..."></div>
+                
+                <label for="city">City</label>
+                <div class="city"><i class="fa-solid fa-city"></i><input type="text" name="city" id="city" placeholder="Enter your city"></div>
+
+                <div class="country__postcode">
+                    <div class="label__country">
+                        <label for="country">country</label>
+                        <div class="country"><i class="fa-solid fa-globe"></i> <select name="country" id="country">
+                            <option value="Turkey">Turkey</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Turkey">Turkey</option>
+                        </select></div>
+
+                    </div>
+                    <div class="label__postcode">
+                        <label for="postcode">Post Code</label>
+                        <div class="postcode"><i class="fa-solid fa-envelopes-bulk"></i>
+                        <input type="number" name="postcode" id="postcode" placeholder="Enter your postal code..."></div>
+
+
+                    </div>
+
+                    <div class="checkbox">
+                        <input type="checkbox" name="agreement" id="agree">
+                        See this information next time
+                    </div>
+                    
+                    <button>continue</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="prices">
+
+
+            </div>
+        </div>
+
+    </main>
+
+    
+</body>
+</html>
